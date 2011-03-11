@@ -24,6 +24,8 @@
   <project path="dependencies/couchdb" name="couchdb"
            remote="couchbase-private" revision="refresh" />
 
+  <project path="dependencies/couchdbx-app" name="couchdbx-app" />
+
   <!-- These components are frozen solid for now. -->
 
   <project name="icu4c" path="dependencies/icu4c-4_4"
