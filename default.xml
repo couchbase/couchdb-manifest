@@ -26,6 +26,8 @@
 
   <project path="dependencies/couchdbx-app" name="couchdbx-app" />
 
+  <project path="dependencies/geocouch" name="geocouch" />
+
   <!-- These components are frozen solid for now. -->
 
   <project name="icu4c" path="dependencies/icu4c-4_4"
