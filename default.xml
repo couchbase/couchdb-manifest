@@ -30,10 +30,9 @@
 
   <!-- These components are frozen solid for now. -->
 
-  <project name="icu4c" path="dependencies/icu4c-4_4"
-           revision="2ef73b7482a4a297e1e6a464f114dd65b0ee9610"/>
+  <project name="icu4c" path="dependencies/icu4c-4_4" />
+  <project name="spidermonkey" path="dependencies/js_src" />
+
   <project name="otp" path="dependencies/otp" remote="erlang"
            revision="99e34bba1a60b262e24496cc9288b549360c6377"/>
-  <project name="spidermonkey" path="dependencies/js_src"
-           revision="a821f8a4287dcb36b8029c83fc47fa6f65035d60"/>
 </manifest>
