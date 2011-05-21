@@ -5,6 +5,10 @@
            fetch="git://github.com/couchbase/"
            review="review.membase.org" />
 
+  <remote  name="dustin"
+           fetch="git://github.com/dustin/"
+           review="review.membase.org" />
+
   <remote  name="couchbase-private"
            fetch="git@github.com:couchbase/"
            review="review.membase.org" />
@@ -29,6 +33,12 @@
   <project path="dependencies/geocouch" name="geocouch"
            remote="couchbase-private"
            revision="d09068e12d2b0560fe625941f4b53b259f518505" />
+
+  <project path="dependencies/ememcached" name="ememcached"
+           remote="dustin" />
+
+  <project path="dependencies/mccouch" name="mccouch"
+           remote="dustin" />
 
   <!-- These components are frozen solid for now. -->
 
