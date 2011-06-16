@@ -37,8 +37,7 @@
   <project path="dependencies/ememcached" name="ememcached"
            remote="dustin" />
 
-  <project path="dependencies/mccouch" name="mccouch"
-           remote="dustin" />
+  <project path="dependencies/mccouch" name="mccouch" />
 
   <!-- These components are frozen solid for now. -->
 
