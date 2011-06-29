@@ -31,8 +31,7 @@
   <project path="dependencies/couchdbx-app" name="couchdbx-app" />
 
   <project path="dependencies/geocouch" name="geocouch"
-           remote="couchbase-private"
-           revision="d09068e12d2b0560fe625941f4b53b259f518505" />
+           remote="couchbase-private" />
 
   <project path="dependencies/ememcached" name="ememcached"
            remote="dustin" />
