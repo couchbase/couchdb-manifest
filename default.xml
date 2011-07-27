@@ -22,11 +22,13 @@
   </project>
 
   <project path="dependencies/couchdb" name="couchdb"
-           remote="couchbase-private" />
+           remote="couchbase-private"
+           revision="bdd76f2097ced314e681fa21c8c15c4f1cd61cca" />
 
   <project path="dependencies/couchdbx-app" name="couchdbx-app" />
 
-  <project path="dependencies/geocouch" name="geocouch" />
+  <project path="dependencies/geocouch" name="geocouch"
+           revision="7fd793c10f3aa667a1088a937398bc5b51472b7f" />
 
   <!-- These components are frozen solid for now. -->
 
