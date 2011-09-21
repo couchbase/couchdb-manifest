@@ -2,8 +2,8 @@
 
 ## Get Repo
 
-    $ curl http://android.git.kernel.org/repo > ~/bin/repo
-    $ chmod a+x ~/bin/repo
+Get the latest version from [the google project
+page](http://code.google.com/p/git-repo/downloads/list).
 
 ## Clone the Manifest
 
