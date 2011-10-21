@@ -5,10 +5,6 @@
            fetch="git://github.com/couchbase/"
            review="review.membase.org" />
 
-  <remote  name="couchbase-private"
-           fetch="git@github.com:couchbase/"
-           review="review.membase.org" />
-
   <remote  name="apache" fetch="git://git.apache.org/" />
   <remote  name="erlang" fetch="git://github.com/erlang/" />
 
@@ -22,12 +18,11 @@
   </project>
 
   <project path="dependencies/couchdb" name="couchdb"
-           remote="couchbase-private" revision="couchbase-1.2.x" />
+           revision="couchbase-1.2.x" />
 
   <project path="dependencies/couchdbx-app" name="couchdbx-app" />
 
   <project path="dependencies/geocouch" name="geocouch"
-           remote="couchbase-private"
            revision="d09068e12d2b0560fe625941f4b53b259f518505" />
 
   <!-- These components are frozen solid for now. -->
