@@ -9,10 +9,6 @@
            fetch="git://github.com/dustin/"
            review="review.membase.org" />
 
-  <remote  name="couchbase-private"
-           fetch="git@github.com:couchbase/"
-           review="review.membase.org" />
-
   <remote  name="apache" fetch="git://git.apache.org/" />
   <remote  name="erlang" fetch="git://github.com/erlang/" />
 
@@ -26,12 +22,11 @@
   </project>
 
   <project path="dependencies/couchdb" name="couchdb"
-           remote="couchbase-private" revision="preview" />
+           revision="preview" />
 
   <project path="dependencies/couchdbx-app" name="couchdbx-app" />
 
-  <project path="dependencies/geocouch" name="geocouch"
-           remote="couchbase-private" />
+  <project path="dependencies/geocouch" name="geocouch" />
 
   <project path="dependencies/ememcached" name="ememcached"
            remote="dustin" />
