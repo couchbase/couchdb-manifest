@@ -21,8 +21,7 @@
 	<copyfile src="Rakefile" dest="Rakefile" />
   </project>
 
-  <project path="dependencies/couchdb" name="couchdb"
-           revision="preview" />
+  <project path="dependencies/couchdb" name="couchdb" />
 
   <project path="dependencies/couchdbx-app" name="couchdbx-app" />
 
