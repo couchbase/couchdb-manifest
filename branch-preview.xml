@@ -23,7 +23,8 @@
 
   <project path="dependencies/couchdb" name="couchdb" />
 
-  <project path="dependencies/couchdbx-app" name="couchdbx-app" />
+  <project path="dependencies/couchdbx-app" name="couchdbx-app"
+           revision="refresh" />
 
   <project path="dependencies/geocouch" name="geocouch" />
 
